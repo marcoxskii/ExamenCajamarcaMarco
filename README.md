@@ -5,10 +5,10 @@ El proyecto incluye un Dockerfile en la raíz del repositorio, esta imagen de Do
 ## Instrucciones para construir y ejecutar la imagen
 Primero, clonamos este repositorio usando 
 ```sh
-(link al repo mio)
+sudo git clone https://github.com/marcoxskii/ExamenCajamarcaMarco.git
 ```
 ### Construir la imagen
-Abrimos el terminal y en el directorio raíz de este proyecto ejecutamos el siguiente comando para construir la imagen de Docker:
+Una vez clonado el repositorio, abrimos el terminal y en el directorio raíz de este proyecto ejecutamos el siguiente comando para construir la imagen de Docker:
 ```sh
 sudo docker build -t examencajamarcam .
 ```
